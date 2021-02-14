@@ -1,17 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import Game from "./Components/Game";
-import Board from "./Components/Board";
-import Square from "./Components/Square";
+import React from 'react';
+import Game from './Components/Game';
 
-const  App=()=>{
-  return (
-    <div className="App">
-      <Game />
-      <Board />
-      <Square />
-    </div>
-  );
-}
+const App = () => <Game />;
 
 export default App;
